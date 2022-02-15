@@ -29,3 +29,30 @@ function growSize() {
 <button onclick="replayAudio()">Replay</button> */}
 
 
+let audioFile = document.getElementById('audio-track');
+
+function startAudio() {
+    audioFile.play();
+}
+
+function pauseAudio() {
+    audioFile.pause();
+}
+
+function muteAudio() {
+    audioFile.muted = !audioFile.muted;
+}
+
+function normalVolume() {
+    audioFile.muted = false;
+    audioFile.volume = 0.5;
+}
+
+function maxVolume() {
+    audioFile.muted = false;
+    audioFile.volume = 1;
+}
+
+function replayAudio() {
+    audioFile.currentTime = 0;
+}
