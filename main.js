@@ -19,3 +19,13 @@ function growSize() {
     paragraph.style.fontSize = (parseInt(currentSize) + 1) + 'px';
 }
 
+
+
+{/* <button onclick="startAudio()">Play</button>
+<button onclick="pauseAudio()">Pause</button>
+<button onclick="muteAudio()">Mute</button>
+<button onclick="normalVolume()">Normal Volume</button>
+<button onclick="maxVolume()">Max Volume</button>
+<button onclick="replayAudio()">Replay</button> */}
+
+

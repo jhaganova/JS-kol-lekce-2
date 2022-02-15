@@ -1,6 +1,9 @@
+body {
+    text-align: center;
+}
+
 .content {
     margin: auto;
-    text-align: center;
     max-width: 500px;
 }
 
@@ -8,13 +11,34 @@
     display: inline-block;
 }
 
-button {
+
+.red {
+    color: red;
+}
+
+.content button {
     display: block;
     width: 100%;
     margin: 10px;
     padding: 10px 0;
 }
 
-.red {
-    color: red;
+.music {
+    max-width: 600px;
+    margin: 50px auto 0 auto;
 }
+
+.music__buttons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+
+}
+
+.music button {
+    padding: 5px;
+    display: inline-block;
+}
+
+
+

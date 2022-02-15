@@ -18,6 +18,24 @@
 
 
     </div>
+
+    <div class="music">
+        <h1 class="music__header">Audio ovladač</h1>
+
+        <audio src="audio/dingdingdang.mp3" id="audio-track" preload="auto"></audio>
+
+        <div class="music__buttons">
+            <button onclick="startAudio()">Play</button>
+            <button onclick="pauseAudio()">Pause</button>
+            <button onclick="muteAudio()">Mute</button>
+            <button onclick="normalVolume()">Normal Volume</button>
+            <button onclick="maxVolume()">Max Volume</button>
+            <button onclick="replayAudio()">Replay</button>
+
+        </div>
+
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>
